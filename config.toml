@@ -48,7 +48,7 @@ preserveTaxonomyNames = true
     url = "https://ukozi.com"
 
     # Text to go before copyright information
-    prefix = "Compiled from fragments of the future for an audience stuck in the past."
+    prefix = ""
 
     # Text to go between copyright and hugo disclaimer (if enabled)
     suffix = ""
@@ -62,7 +62,7 @@ preserveTaxonomyNames = true
     weight = 20
 
 [taxonomies]
-category = "category"
+category = "categories"
 tag = "tags"
 
 
