@@ -68,7 +68,7 @@ preserveTaxonomyNames = true
     weight = 20
 
 [taxonomies]
-category = "topics"
+category = "categories"
 tag = "tags"
 
 
