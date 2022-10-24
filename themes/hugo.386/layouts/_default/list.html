@@ -1,0 +1,20 @@
+{{ define "main" }}
+<article class="row">
+    <div class="col">
+        <div class="bs-component">
+            <h1>{{.Title}}</h1>
+            <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+            {{.Content}}
+        </div>
+    </div>
+</article>
+<ul class="list-group">
+    <!-- Ranges through content/posts/*.md -->
+    {{ range .Pages }}
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <a href="{{.Permalink}}">{{.Title}}</a>
+        <span class="badge badge-primary badge-pill">{{ .Date.Format "2006-01-02" }}</span>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
