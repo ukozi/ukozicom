@@ -10,10 +10,10 @@ preserveTaxonomyNames = true
     mainpagetitle = "Ukozi.com"
 
     # The subtitle to display under the title in the home page
-    mainpagesubtitle = "|ook-ah-zee| n. a person, place, thing, or event that curates joy from a source of chaos" 
+    mainpagesubtitle = "|ook-ah-zee| n. a person, place, thing, or event that derives joy from chaos" 
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "Here is my collection of exhibits."
+    mainpagedesc = "Here is a collection of exhibits."
 
     # The name to display in the copyright section in the footer
     copyrightname = "Ukozi.com"
@@ -68,7 +68,7 @@ preserveTaxonomyNames = true
     weight = 20
 
 [taxonomies]
-category = "categories"
+category = "topics"
 tag = "tags"
 
 
