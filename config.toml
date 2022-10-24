@@ -7,16 +7,16 @@ preserveTaxonomyNames = true
 
 [params]
     # The name to display as main title in the home page
-    mainpagetitle = "Ukozi"
+    mainpagetitle = "Ukozi.com"
 
     # The subtitle to display under the title in the home page
-    mainpagesubtitle = "|ook-ah-zee| Generating Disappointment From Chaos." 
+    mainpagesubtitle = "|ook-ah-zee| n. a person, place, thing, or event that curates joy from a source of chaos" 
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "A collection of exhibits to prove I have too much time on my hands."
+    mainpagedesc = "Here is my collection of exhibits."
 
     # The name to display in the copyright section in the footer
-    copyrightname = "Lucas J. Chumley"
+    copyrightname = "Ukozi.com"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
     copyrighturl = "https://ukozi.com"
@@ -25,7 +25,7 @@ preserveTaxonomyNames = true
     showhugo = true
 
     # Show a CRT screen effect. Default is enabled.
-    showcrt = true
+    showcrt = false
 
     # Urls for social networks
     twitter = "https://twitter.com/theUkozi"
@@ -42,7 +42,7 @@ preserveTaxonomyNames = true
     loadonepass = false
 
 [params.copyright]
-    name = "Lucas J. Chumley"
+    name = "ukozi.com"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
     url = "https://ukozi.com"
@@ -51,7 +51,7 @@ preserveTaxonomyNames = true
     prefix = "Compiled from fragments of the future for an audience stuck in the past."
 
     # Text to go between copyright and hugo disclaimer (if enabled)
-    suffix = "Ukozi"
+    suffix = ""
 
 [menu]
   # This displays buttons in the navbar to access your contents
