@@ -64,6 +64,7 @@ preserveTaxonomyNames = true
 [taxonomies]
 category = "categories"
 tag = "tags"
+facet = "facets"
 
 
 [privacy]

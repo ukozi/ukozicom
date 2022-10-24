@@ -12,6 +12,9 @@ categories = [
     "themes",
     "syntax",
 ]
+facets = [
+    "security"
+]
 series = ["Themes Guide"]
 aliases = ["migrate-from-jekyl"]
 +++
