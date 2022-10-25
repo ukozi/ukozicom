@@ -1,6 +1,4 @@
 +++
-aliases = ["posts", "articles", "blog", "showcase", "docs"]
-title = "All Posts"
+title = "Ukozi Static"
 author = "Lucas J. Chumley"
-tags = ["index"]
 +++
