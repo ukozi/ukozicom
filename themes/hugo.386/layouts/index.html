@@ -32,6 +32,12 @@
                 </div>
             </div>
             <div class="card text-white bg-primary mb-3 sideblock">
+                <div class="card-header">{{ i18n "facets" }}</div>
+                <div class="card-body">
+                    {{ partial "facets.html" .}}
+                </div>
+            </div>
+            <div class="card text-white bg-primary mb-3 sideblock">
                 <div class="card-header">{{ i18n "tags" }}</div>
                 <div class="card-body">
                     {{ partial "tags.html" .}}
