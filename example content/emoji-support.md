@@ -7,7 +7,7 @@ tags = [
     "emoji",
 ]
 facets = [
-    "Retro Tech"
+    "retro tech"
 ]
 +++
 
