@@ -16,7 +16,7 @@ preserveTaxonomyNames = true
     mainpagedesc = "ukozi.com is an anthology of labor and melee."
 
     # The name to display in the copyright section in the footer
-    copyrightname = "Lucas J. Chumley, ukozi.com"
+    copyrightname = "Lucas J. Chumley"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
     copyrighturl = "https://ukozi.com"
@@ -42,7 +42,7 @@ preserveTaxonomyNames = true
     loadonepass = false
 
 [params.copyright]
-    name = "ukozi.com"
+    name = "Lucas J. Chumley, ukozi.com"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
     url = "https://ukozi.com"
@@ -60,6 +60,12 @@ preserveTaxonomyNames = true
     name = "Posts"
     url = "/post/"       # The path can lead to a content folder too.
     weight = 20
+  
+  [[menu.main]]
+  identifier = "Ukozi Static"
+  name = "Ukozi Static"
+  url = "/ukozi-static/"       # The path can lead to a content folder too.
+  weight = 30
 
 [taxonomies]
 category = "categories"
