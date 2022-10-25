@@ -7,10 +7,10 @@ preserveTaxonomyNames = true
 
 [params]
     # The name to display as main title in the home page
-    mainpagetitle = "ukozi |oo-kah-zee|"
+    mainpagetitle = "ukozi | oo-kah-zee | n. a person, thing, or event that curates contentment from putrefied chaos"
 
     # The subtitle to display under the title in the home page
-    mainpagesubtitle = "n. a person, thing, or event that curates contentment from putrefied chaos" 
+    mainpagesubtitle = "" 
 
     # The description of your website. It will be displayed in the home page
     mainpagedesc = "ukozi.com is an anthology of labor and melee."
