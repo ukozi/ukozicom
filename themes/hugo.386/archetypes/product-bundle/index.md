@@ -1,8 +1,8 @@
 +++
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-description: ""
-facets: []
-tags: []
-categories: []
+title = "{{ replace .Name "-" " " | title }}"
+date = {{ .Date }}
+description = ""
+facets = []
+tags = []
+categories = []
 +++
