@@ -64,7 +64,7 @@ preserveTaxonomyNames = true
   [[menu.main]]
   identifier = "Ukozi Static"
   name = "Ukozi Static"
-  url = "/ukozi-static/"       # The path can lead to a content folder too.
+  url = "/product/ukozi-static/"       # The path can lead to a content folder too.
   weight = 30
 
 [taxonomies]
