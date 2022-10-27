@@ -1,5 +1,1 @@
-<div class="row align-center">
-	<div class="col">
-		<a href="{{ index .Params 0 }}" class="btn btn-primary btn-lg">{{ i18n "{{ .Get 1 }}" }}</a>
-	</div>
-</div>
+<a href={{ .Get 0 }} class="btn btn-primary btn-lg">{{ .Get 1 }}</a> 

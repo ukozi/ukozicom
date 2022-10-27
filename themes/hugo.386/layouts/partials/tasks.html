@@ -1,0 +1,16 @@
+{{ if $.Param "link-1"}}
+<div class="row">
+<a href={{ $.Param "link-1"}} class="btn btn-primary btn-lg">{{ $.Param "action-1"}}</a> 
+</div>
+{{ end }}
+{{ if $.Param "link-2"}}
+<div class="row">
+<a href="{{ $.Param "link-2"}}" class="btn btn-primary btn-lg">{{ $.Param "action-2"}}</a>
+</div>
+{{ end }}
+{{ if $.Param "link-3"}}
+<div class="row">
+<a href="{{ $.Param "link-3"}}" class="btn btn-primary btn-lg">{{ $.Param "action-3"}}</a>
+</div>
+{{ end }}
+</div>

@@ -1,19 +1,30 @@
 {{ define "main" }}
 
-<div class="row">
-    <div class="col">
+<div class="row mt-3">
+    <div class="col-lg-9">
 
         <h1 class="mb-3">{{ .Title }} - {{ .Description }}</h1>
-
-        <p class="lead">{{ .Params.description }}</p>
+        
+       <!-- <p class="lead">{{ .Params.description }}</p> -->
         {{ .Content }}
+ 
+    </div>
 
+
+    <div class="col-lg-3">
+        <div class="row mt-3">
+            <div class="bs-component">
+                <div class="card text-white bg-primary mb-3 sideblock">
+                    <div class="card-header">Related Tasks</div>
+                    <div class="card-body">
+                        {{ partial "tasks.html" .}}
+                    </div>
+                </div>   
+            </div>
+        </div>
     </div>
-</div>
-<div class="row align-center">
-    <div class="col">
-        <a href="{{ .Site.BaseURL }}" class="btn btn-primary btn-lg">{{ i18n "backtohome" }}</a>
-    </div>
-</div>
+    <br>
+    <a href="{{ .Site.BaseURL }}" class="btn btn-primary btn-lg">{{ i18n "backtohome" }}</a>
+
 
 {{ end }}
